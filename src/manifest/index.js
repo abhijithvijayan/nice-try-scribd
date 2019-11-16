@@ -34,7 +34,7 @@ const manifestInput = {
     content_scripts: [
         {
             matches: ['https://*.scribd.com/*'],
-            js: ['contentScript.bundle.js'],
+            js: ['js/contentScript.bundle.js'],
         },
     ],
 };
