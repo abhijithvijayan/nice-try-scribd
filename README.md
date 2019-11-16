@@ -1,25 +1,9 @@
-<h1 align="center">🚀 web-extension-starter</h1>
-<p align="center">Web Extension starter to build "Write Once Run on Any Browser" extension</p>
+<h1 align="center">nice-try-scribd</h1>
+<p align="center">Unblur Scribd Documents...</p>
 
-## Features
+<br />
 
-- Cross Browser Support (Web-Extensions API)
-- Browser Taylored Manifest generation
-- Automatic build on code changes.
-- Auto packs browser specific build files
-- ES6 modules support
-- SASS styling
-
-## Browser Support
-
-| [![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)](https://chrome.google.com/webstore/detail/kutt/pklakpjfiegjacoppcodencchehlfnpd) | [![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)](https://addons.mozilla.org/firefox/addon/kutt/) | [![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png)](CONTRIBUTING.md#for-opera-users) | [![Yandex](https://raw.github.com/alrra/browser-logos/master/src/yandex/yandex_48x48.png)](https://chrome.google.com/webstore/detail/kutt/pklakpjfiegjacoppcodencchehlfnpd) | [![Brave](https://raw.github.com/alrra/browser-logos/master/src/brave/brave_48x48.png)](https://chrome.google.com/webstore/detail/kutt/pklakpjfiegjacoppcodencchehlfnpd) | [![vivaldi](https://raw.github.com/alrra/browser-logos/master/src/vivaldi/vivaldi_48x48.png)](https://chrome.google.com/webstore/detail/kutt/pklakpjfiegjacoppcodencchehlfnpd) |
-![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 49 & later ✔ | 52 & later ✔ | 36 & later ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔
-
-## Demo
-
-- [abhijithvijayan/kutt-extension](https://github.com/abhijithvijayan/kutt-extension)
+![demo](demo.png)
 
 ## 🚀 Quick Start
 
@@ -32,46 +16,7 @@
 - `yarn run build:opera` to build opera extension.
 - `yarn run build` builds and packs extensions all at once to extension/ directory.
 
-## Usage
-
-Update `src/manifest/index.js` file with browser vendor prefixed manifest keys
-
-```js
-{
-  "__chrome__name": "SuperChrome",
-  "__firefox__name": "SuperFox",
-  "__edge__name": "SuperEdge",
-  "__opera__name": "SuperOpera"
-}
-```
-
-if the vendor is `chrome` this compiles to:
-
-```js
-{
-  "name": "SuperChrome",
-}
-```
-
----
-
-Add keys to multiple vendors by seperating them with | in the prefix
-
-```
-{
-  __chrome|opera__name: "SuperBlink"
-}
-```
-
-if the vendor is `chrome` or `opera`, this compiles to:
-
-```
-{
-  "name": "SuperBlink"
-}
-```
-
-See the original [README](https://github.com/abhijithvijayan/wext-manifest) of wext-manifest package for more details
+## Getting Started
 
 ### Development
 
@@ -109,6 +54,10 @@ See the original [README](https://github.com/abhijithvijayan/wext-manifest) of w
 ### Production
 
 - `yarn run build` builds the extension for all the browsers to `extension/BROWSER` directory respectively.
+
+## Template
+
+Generated from https://github.com/abhijithvijayan/web-extension-starter
 
 ## Show your support
 
