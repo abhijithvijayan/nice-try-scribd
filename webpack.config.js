@@ -42,6 +42,11 @@ module.exports = {
     plugins: [
         new webpack.ProgressPlugin(),
         new FixStyleOnlyEntriesPlugin({ silent: true }),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+            'window.jQuery': 'jquery',
+        }),
         new CleanWebpackPlugin({
             cleanOnceBeforeBuildPatterns: [
                 path.join(process.cwd(), `extension/${targetBrowser}`),
