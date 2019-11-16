@@ -2,7 +2,7 @@ const pkg = require('../../package.json');
 
 const manifestInput = {
     manifest_version: 2,
-    name: 'Sample WebExtension',
+    name: 'Nice Try Scribd',
     version: pkg.version,
 
     icons: {
@@ -12,11 +12,11 @@ const manifestInput = {
         '128': 'assets/icons/favicon-128.png',
     },
 
-    description: 'Sample description',
+    description: 'Duh!',
     homepage_url: 'https://github.com/abhijithvijayan/web-extension-starter',
-    short_name: 'Sample Name',
+    short_name: 'Nice Try Scribd',
 
-    permissions: ['tabs', 'storage', 'http://*/*', 'https://*/*'],
+    permissions: ['http://*.scribd.com/*', 'https://*.scribd.com/*'],
     content_security_policy: "script-src 'self' 'unsafe-eval'; object-src 'self'",
 
     '__chrome|firefox__author': 'abhijithvijayan',
@@ -31,31 +31,12 @@ const manifestInput = {
     __chrome__minimum_chrome_version: '49',
     __opera__minimum_opera_version: '36',
 
-    browser_action: {
-        default_popup: 'popup.html',
-        default_icon: {
-            '16': 'assets/icons/favicon-16.png',
-            '32': 'assets/icons/favicon-32.png',
-            '48': 'assets/icons/favicon-48.png',
-            '128': 'assets/icons/favicon-128.png',
+    content_scripts: [
+        {
+            matches: ['https://*.scribd.com/*'],
+            js: ['contentScript.bundle.js'],
         },
-        default_title: 'tiny title',
-        '__chrome|opera__chrome_style': false,
-        __firefox__browser_style: false,
-    },
-
-    '__chrome|opera__options_page': 'options.html',
-
-    options_ui: {
-        page: 'options.html',
-        open_in_tab: true,
-        __chrome__chrome_style: false,
-    },
-
-    background: {
-        scripts: ['js/background.bundle.js'],
-        '__chrome|opera__persistent': false,
-    },
+    ],
 };
 
 module.exports = manifestInput;
