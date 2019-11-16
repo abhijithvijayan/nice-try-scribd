@@ -59,6 +59,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.6.3",
+    "jquery": "^3.4.1",
     "terser-webpack-plugin": "^2.2.1",
     "webextension-polyfill": "^0.5.0",
     "wext-manifest": "^2.0.1"
