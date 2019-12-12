@@ -5,6 +5,10 @@
 
 ![demo](demo.png)
 
+<br />
+
+Check out [Releases](https://github.com/abhijithvijayan/nice-try-scribd/releases) Page to download the extension
+
 ## 🚀 Quick Start
 
 - `yarn install` to install dependencies.
