@@ -1,5 +1,6 @@
 <h1 align="center">nice-try-scribd</h1>
 <p align="center">Unblur Scribd Documents...</p>
+<h3 align="center">🙋‍♂️ Made by <a href="https://twitter.com/_abhijithv">@abhijithvijayan</a></h3>
 
 <br />
 
