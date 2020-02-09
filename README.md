@@ -18,7 +18,14 @@
 
 <br />
 
-Check out [Releases](https://github.com/abhijithvijayan/nice-try-scribd/releases) Page to download the extension
+##  Download for browser(s)
+
+  - Firefox: [Nice Try Scribd :: Add-ons for Firefox](https://addons.mozilla.org/en-US/firefox/addon/nice-try-scribd/)
+  - Other Browsers: [Download from releases](https://github.com/abhijithvijayan/nice-try-scribd/releases)
+
+## Template
+
+- [abhijithvijayan/web-extension-starter](https://github.com/abhijithvijayan/web-extension-starter)
 
 ## 🚀 Quick Start
 
