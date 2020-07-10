@@ -1,7 +1,10 @@
 {
-  "extends": ["onepass"],
+  "extends": [
+    "@abhijithvijayan/eslint-config"
+  ],
   "env": {
     "browser": true,
     "webextensions": true
-  }
+  },
+  "rules": {}
 }
