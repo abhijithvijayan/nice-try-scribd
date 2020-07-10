@@ -1,3 +1,10 @@
+/**
+ *  nice-try-scribd
+ *
+ *  @author   abhijithvijayan <abhijithvijayan.in>
+ *  @license  MIT License
+ */
+
 function unblur() {
   // **** Wrappers **** //
   // `You're Reading a Preview` card
