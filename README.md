@@ -1,6 +1,5 @@
 <h1 align="center">nice-try-scribd</h1>
 <p align="center">Unblur Scribd Documents...</p>
-<p align="center">https://github.com/abhijithvijayan/awesome-stars</p>
 <div align="center">
   <a href="https://travis-ci.com/abhijithvijayan/nice-try-scribd">
     <img src="https://travis-ci.com/abhijithvijayan/nice-try-scribd.svg?branch=main" alt="Travis Build" />
